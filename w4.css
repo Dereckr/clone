@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin: 0;
+}
+
+.box {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes myanima{
+    
+}
