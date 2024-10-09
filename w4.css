@@ -7,11 +7,21 @@ body {
 }
 
 .box {
+    display: flex;
     background-color: blue;
     height: 100px;
     width: 100px;
+    animation: myanima 6s infinite alternate linear ;
+    justify-content: center;
+    align-items: center;
+    te
+    
 }
 
 @keyframes myanima{
-    
+    0% {background-color: green; transform:translateX(0px) translateY(0px);}
+    50% {background-color: yellow; transform:translateX(100px) translateY(100px);}
+    100% {background-color: red; transform:translateX(-300px) translateY(200px);}
 }
+
+
